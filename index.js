@@ -1,0 +1,1 @@
+console.log('Dynamic Quote Website')
