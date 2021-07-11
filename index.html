@@ -8,21 +8,52 @@
     <style>
         #heading{
             text-align: center;
+            font-size: 3rem;
+            line-height: 6rem;
         }
+        #container{
+            display: flex;          
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
 
+        }
+        #innerContainer{        
+            border: 2px solid black;
+            width: 700px;
+        }
+        #text{
+
+            margin: 20px;
+        }
+        #author{
+            margin: 20px;
+
+            
+        }
+        #btn{
+            font-size: 1.2rem;
+            margin: 1.25rem;
+            padding: 0.50rem;
+            
+            border: 2px solid black;
+        }
     </style>
 </head>
 <body>
     <h1 id="heading">Quote Website</h1>
     <div id="container">
-        <div id="text">
+        <div id="innerContainer">
 
-        </div>
-        <div id="author">
-
-        </div>
-        <div>
-            <button id="btn">Get Quotes</button>
+            <div id="text">
+                
+            </div>
+            <div id="author">
+                
+            </div>
+            <div>
+                <button id="btn">Get Quotes</button>
+            </div>
         </div>
     </div>
     
